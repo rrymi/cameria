@@ -1,0 +1,52 @@
+body {
+  height: 130vh;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+span {
+  color: #ff4646;
+}
+
+main {
+  margin-top: 3.5rem;
+  margin-left: 2rem;
+}
+
+.logo {
+  padding-left: 100px;
+}
+
+.logo p {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-size: 36px;
+}
+
+nav {
+  color: #fff5c0;
+  height: 3rem;
+  background-color: #ff4646;
+  display: flex;
+  justify-content: space-between;
+  top: 0px;
+  position: fixed;
+  width: 90%;
+  align-items: center;
+  left: 5%;
+}
+
+header {
+  background-color: #ff4646;
+  width: 100vw;
+}
+
+ul {
+  display: flex;
+}
+
+ul li {
+  margin: 0 2rem;
+  list-style-type: none;
+}
