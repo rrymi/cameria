@@ -2,16 +2,28 @@ body {
   height: 130vh;
   margin: 0;
   padding: 0;
-  width: 100%;
+  box-sizing: border-box;
 }
 
 span {
   color: #ff4646;
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-size: 42px;
 }
 
 main {
-  margin-top: 3.5rem;
-  margin-left: 2rem;
+  margin: 3.5rem auto;
+  text-align: center;
+}
+
+main h1 {
+  padding-top: 30vh;
+  font-size: 36px;
+}
+
+main h2 {
+  font-style: italic;
 }
 
 .logo {
@@ -25,21 +37,16 @@ main {
 }
 
 nav {
+  display: none;
   color: #fff5c0;
   height: 3rem;
   background-color: #ff4646;
-  display: flex;
+  /* display: flex; */
   justify-content: space-between;
   top: 0px;
   position: fixed;
-  width: 90%;
+  width: 100%;
   align-items: center;
-  left: 5%;
-}
-
-header {
-  background-color: #ff4646;
-  width: 100vw;
 }
 
 ul {
